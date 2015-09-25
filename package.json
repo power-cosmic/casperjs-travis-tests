@@ -1,0 +1,17 @@
+{
+  "name": "phantomizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha-casperjs tests/m.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "latest",
+    "chai": "latest",
+    "casper": "latest"
+  }
+}
