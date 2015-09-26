@@ -7,5 +7,6 @@ node:
   - "0.6"
 before_script:
   - npm install -g phantomjs mocha-casperjs casper-chai
-  - sudo node server.js &
+  - node server.js &
   - sleep 5
+sudo: false
