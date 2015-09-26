@@ -12,6 +12,6 @@
   "dependencies": {
     "mocha": "latest",
     "chai": "latest",
-    "casper": "latest"
+    "casperjs": "latest"
   }
 }
