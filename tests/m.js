@@ -1,7 +1,7 @@
 var screenshot = function(filename) {
   return 'screenshots/' + filename;
 };
-
+//
 describe('home page', function() {
   before(function() {
     casper.start('http://localhost:3000');
